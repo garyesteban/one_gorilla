@@ -28,7 +28,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "src/styles.sass",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/swiper/dist/css/swiper.min.css"
             ],
             "scripts": []
           },

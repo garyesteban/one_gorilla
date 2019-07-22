@@ -1,0 +1,11 @@
+<div class="swiper-container">
+
+  <div class="swiper-button-prev" (onclick)="slideToNext()"></div>
+  <div class="swiper-button-next" (onclick)="swiper.slidePrev()"></div>
+  <div class="swiper-pagination"></div>
+</div>
+<swiper [config]="config" [(index)]="index">
+  <div *ngFor="let photo of photos">
+    <img [src]="photo.url" alt="">
+  </div>
+</swiper>

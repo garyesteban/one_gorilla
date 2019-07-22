@@ -1,0 +1,12 @@
+<div class="list-group" *ngFor="let usuario of usuarios">
+  <div href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">{{usuario.name}}</h5>
+      <small>Resultado {{ usuario.resultado ? 'verdadero' : 'falso' }}</small>
+    </div>
+    <p class="mb-1">{{usuario.email}}</p>
+    <small>N : {{ usuario.n }}</small>
+    <br>
+    <small>M : {{ usuario.m }}</small>
+  </div>
+</div>
